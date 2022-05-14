@@ -1,0 +1,15 @@
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/013fileInclude.c.dir
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/012Han.c.dir
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/004variable.c.dir
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/006operators.c.dir
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/009variable_type_and_scope.c.dir
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/010varargs.c.dir
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/008function_basics.c.dir
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/007conditions.c.dir
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/003float.c.dir
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/002char.c.dir
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/011Recursion.c.dir
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/005constant.c.dir
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/001int.c.dir

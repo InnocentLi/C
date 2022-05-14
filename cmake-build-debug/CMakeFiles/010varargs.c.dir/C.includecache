@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/innocent/CLionProjects/C/010varargs.c
+stdio.h
+/Users/innocent/CLionProjects/C/stdio.h
+stdarg.h
+/Users/innocent/CLionProjects/C/stdarg.h
+
