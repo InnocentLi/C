@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "006operators.c"
   "006operators.c.pdb"
   "CMakeFiles/006operators.c.dir/006operators.c.o"
+  "CMakeFiles/006operators.c.dir/src/factorial.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

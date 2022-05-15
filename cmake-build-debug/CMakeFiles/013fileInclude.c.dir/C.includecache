@@ -7,4 +7,8 @@
 #IncludeRegexTransform: 
 
 /Users/innocent/CLionProjects/C/013fileInclude.c
+include/factorial.h
+/Users/innocent/CLionProjects/C/include/factorial.h
+
+/Users/innocent/CLionProjects/C/include/factorial.h
 

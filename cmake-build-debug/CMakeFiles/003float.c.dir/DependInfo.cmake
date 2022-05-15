@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/innocent/CLionProjects/C/003float.c" "/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/003float.c.dir/003float.c.o"
+  "/Users/innocent/CLionProjects/C/src/factorial.c" "/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/003float.c.dir/src/factorial.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

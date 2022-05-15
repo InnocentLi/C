@@ -45,6 +45,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/014macro_function.c.dir/DependInfo.cmake"
   "CMakeFiles/013fileInclude.c.dir/DependInfo.cmake"
   "CMakeFiles/012Han.c.dir/DependInfo.cmake"
   "CMakeFiles/004variable.c.dir/DependInfo.cmake"

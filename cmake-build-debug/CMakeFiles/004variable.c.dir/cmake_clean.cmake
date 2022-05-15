@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "004variable.c"
   "004variable.c.pdb"
   "CMakeFiles/004variable.c.dir/004variable.c.o"
+  "CMakeFiles/004variable.c.dir/src/factorial.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -27,6 +27,48 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="014macro_function.c">
+				<Option output="/Users/innocent/CLionProjects/C/cmake-build-debug/014macro_function.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 014macro_function.c"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="014macro_function.c/fast">
+				<Option output="/Users/innocent/CLionProjects/C/cmake-build-debug/014macro_function.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 014macro_function.c/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
 				<Option type="4"/>
@@ -622,6 +664,25 @@
 		</Unit>
 		<Unit filename="/Users/innocent/CLionProjects/C/013fileInclude.c">
 			<Option target="013fileInclude.c"/>
+		</Unit>
+		<Unit filename="/Users/innocent/CLionProjects/C/014macro_function.c">
+			<Option target="014macro_function.c"/>
+		</Unit>
+		<Unit filename="/Users/innocent/CLionProjects/C/src/factorial.c">
+			<Option target="014macro_function.c"/>
+			<Option target="013fileInclude.c"/>
+			<Option target="012Han.c"/>
+			<Option target="004variable.c"/>
+			<Option target="006operators.c"/>
+			<Option target="009variable_type_and_scope.c"/>
+			<Option target="010varargs.c"/>
+			<Option target="008function_basics.c"/>
+			<Option target="007conditions.c"/>
+			<Option target="003float.c"/>
+			<Option target="002char.c"/>
+			<Option target="011Recursion.c"/>
+			<Option target="005constant.c"/>
+			<Option target="001int.c"/>
 		</Unit>
 		<Unit filename="/Users/innocent/CLionProjects/C/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

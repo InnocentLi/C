@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 014macro_function.c
+
+# Build rule for target.
+014macro_function.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 014macro_function.c
+.PHONY : 014macro_function.c
+
+# fast build rule for target.
+014macro_function.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/014macro_function.c.dir/build.make CMakeFiles/014macro_function.c.dir/build
+.PHONY : 014macro_function.c/fast
+
+#=============================================================================
 # Target rules for targets named 013fileInclude.c
 
 # Build rule for target.
@@ -597,6 +610,93 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/013fileInclude.c.dir/build.make CMakeFiles/013fileInclude.c.dir/013fileInclude.c.s
 .PHONY : 013fileInclude.c.s
 
+014macro_function.o: 014macro_function.c.o
+.PHONY : 014macro_function.o
+
+# target to build an object file
+014macro_function.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/014macro_function.c.dir/build.make CMakeFiles/014macro_function.c.dir/014macro_function.c.o
+.PHONY : 014macro_function.c.o
+
+014macro_function.i: 014macro_function.c.i
+.PHONY : 014macro_function.i
+
+# target to preprocess a source file
+014macro_function.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/014macro_function.c.dir/build.make CMakeFiles/014macro_function.c.dir/014macro_function.c.i
+.PHONY : 014macro_function.c.i
+
+014macro_function.s: 014macro_function.c.s
+.PHONY : 014macro_function.s
+
+# target to generate assembly for a file
+014macro_function.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/014macro_function.c.dir/build.make CMakeFiles/014macro_function.c.dir/014macro_function.c.s
+.PHONY : 014macro_function.c.s
+
+src/factorial.o: src/factorial.c.o
+.PHONY : src/factorial.o
+
+# target to build an object file
+src/factorial.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/014macro_function.c.dir/build.make CMakeFiles/014macro_function.c.dir/src/factorial.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/013fileInclude.c.dir/build.make CMakeFiles/013fileInclude.c.dir/src/factorial.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/012Han.c.dir/build.make CMakeFiles/012Han.c.dir/src/factorial.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/004variable.c.dir/build.make CMakeFiles/004variable.c.dir/src/factorial.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/006operators.c.dir/build.make CMakeFiles/006operators.c.dir/src/factorial.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/009variable_type_and_scope.c.dir/build.make CMakeFiles/009variable_type_and_scope.c.dir/src/factorial.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/010varargs.c.dir/build.make CMakeFiles/010varargs.c.dir/src/factorial.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/008function_basics.c.dir/build.make CMakeFiles/008function_basics.c.dir/src/factorial.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/007conditions.c.dir/build.make CMakeFiles/007conditions.c.dir/src/factorial.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/003float.c.dir/build.make CMakeFiles/003float.c.dir/src/factorial.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/002char.c.dir/build.make CMakeFiles/002char.c.dir/src/factorial.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/011Recursion.c.dir/build.make CMakeFiles/011Recursion.c.dir/src/factorial.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/005constant.c.dir/build.make CMakeFiles/005constant.c.dir/src/factorial.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/001int.c.dir/build.make CMakeFiles/001int.c.dir/src/factorial.c.o
+.PHONY : src/factorial.c.o
+
+src/factorial.i: src/factorial.c.i
+.PHONY : src/factorial.i
+
+# target to preprocess a source file
+src/factorial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/014macro_function.c.dir/build.make CMakeFiles/014macro_function.c.dir/src/factorial.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/013fileInclude.c.dir/build.make CMakeFiles/013fileInclude.c.dir/src/factorial.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/012Han.c.dir/build.make CMakeFiles/012Han.c.dir/src/factorial.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/004variable.c.dir/build.make CMakeFiles/004variable.c.dir/src/factorial.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/006operators.c.dir/build.make CMakeFiles/006operators.c.dir/src/factorial.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/009variable_type_and_scope.c.dir/build.make CMakeFiles/009variable_type_and_scope.c.dir/src/factorial.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/010varargs.c.dir/build.make CMakeFiles/010varargs.c.dir/src/factorial.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/008function_basics.c.dir/build.make CMakeFiles/008function_basics.c.dir/src/factorial.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/007conditions.c.dir/build.make CMakeFiles/007conditions.c.dir/src/factorial.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/003float.c.dir/build.make CMakeFiles/003float.c.dir/src/factorial.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/002char.c.dir/build.make CMakeFiles/002char.c.dir/src/factorial.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/011Recursion.c.dir/build.make CMakeFiles/011Recursion.c.dir/src/factorial.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/005constant.c.dir/build.make CMakeFiles/005constant.c.dir/src/factorial.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/001int.c.dir/build.make CMakeFiles/001int.c.dir/src/factorial.c.i
+.PHONY : src/factorial.c.i
+
+src/factorial.s: src/factorial.c.s
+.PHONY : src/factorial.s
+
+# target to generate assembly for a file
+src/factorial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/014macro_function.c.dir/build.make CMakeFiles/014macro_function.c.dir/src/factorial.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/013fileInclude.c.dir/build.make CMakeFiles/013fileInclude.c.dir/src/factorial.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/012Han.c.dir/build.make CMakeFiles/012Han.c.dir/src/factorial.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/004variable.c.dir/build.make CMakeFiles/004variable.c.dir/src/factorial.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/006operators.c.dir/build.make CMakeFiles/006operators.c.dir/src/factorial.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/009variable_type_and_scope.c.dir/build.make CMakeFiles/009variable_type_and_scope.c.dir/src/factorial.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/010varargs.c.dir/build.make CMakeFiles/010varargs.c.dir/src/factorial.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/008function_basics.c.dir/build.make CMakeFiles/008function_basics.c.dir/src/factorial.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/007conditions.c.dir/build.make CMakeFiles/007conditions.c.dir/src/factorial.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/003float.c.dir/build.make CMakeFiles/003float.c.dir/src/factorial.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/002char.c.dir/build.make CMakeFiles/002char.c.dir/src/factorial.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/011Recursion.c.dir/build.make CMakeFiles/011Recursion.c.dir/src/factorial.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/005constant.c.dir/build.make CMakeFiles/005constant.c.dir/src/factorial.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/001int.c.dir/build.make CMakeFiles/001int.c.dir/src/factorial.c.s
+.PHONY : src/factorial.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -618,6 +718,7 @@ help:
 	@echo "... 011Recursion.c"
 	@echo "... 012Han.c"
 	@echo "... 013fileInclude.c"
+	@echo "... 014macro_function.c"
 	@echo "... 001int.o"
 	@echo "... 001int.i"
 	@echo "... 001int.s"
@@ -657,6 +758,12 @@ help:
 	@echo "... 013fileInclude.o"
 	@echo "... 013fileInclude.i"
 	@echo "... 013fileInclude.s"
+	@echo "... 014macro_function.o"
+	@echo "... 014macro_function.i"
+	@echo "... 014macro_function.s"
+	@echo "... src/factorial.o"
+	@echo "... src/factorial.i"
+	@echo "... src/factorial.s"
 .PHONY : help
 
 
