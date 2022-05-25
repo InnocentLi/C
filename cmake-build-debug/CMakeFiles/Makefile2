@@ -63,6 +63,7 @@ CMAKE_BINARY_DIR = /Users/innocent/CLionProjects/C/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/016printInf.c.dir/all
 all: CMakeFiles/014macro_function.c.dir/all
 all: CMakeFiles/013fileInclude.c.dir/all
 all: CMakeFiles/012Han.c.dir/all
@@ -76,6 +77,7 @@ all: CMakeFiles/003float.c.dir/all
 all: CMakeFiles/002char.c.dir/all
 all: CMakeFiles/011Recursion.c.dir/all
 all: CMakeFiles/005constant.c.dir/all
+all: CMakeFiles/015conditionnal_macro.c.dir/all
 all: CMakeFiles/001int.c.dir/all
 .PHONY : all
 
@@ -84,6 +86,7 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/016printInf.c.dir/clean
 clean: CMakeFiles/014macro_function.c.dir/clean
 clean: CMakeFiles/013fileInclude.c.dir/clean
 clean: CMakeFiles/012Han.c.dir/clean
@@ -97,8 +100,35 @@ clean: CMakeFiles/003float.c.dir/clean
 clean: CMakeFiles/002char.c.dir/clean
 clean: CMakeFiles/011Recursion.c.dir/clean
 clean: CMakeFiles/005constant.c.dir/clean
+clean: CMakeFiles/015conditionnal_macro.c.dir/clean
 clean: CMakeFiles/001int.c.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/016printInf.c.dir
+
+# All Build rule for target.
+CMakeFiles/016printInf.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/016printInf.c.dir/build.make CMakeFiles/016printInf.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/016printInf.c.dir/build.make CMakeFiles/016printInf.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles --progress-num=46,47,48 "Built target 016printInf.c"
+.PHONY : CMakeFiles/016printInf.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/016printInf.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/016printInf.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/016printInf.c.dir/rule
+
+# Convenience name for target.
+016printInf.c: CMakeFiles/016printInf.c.dir/rule
+.PHONY : 016printInf.c
+
+# clean rule for target.
+CMakeFiles/016printInf.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/016printInf.c.dir/build.make CMakeFiles/016printInf.c.dir/clean
+.PHONY : CMakeFiles/016printInf.c.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/014macro_function.c.dir
@@ -437,6 +467,32 @@ CMakeFiles/005constant.c.dir/rule: cmake_check_build_system
 CMakeFiles/005constant.c.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/005constant.c.dir/build.make CMakeFiles/005constant.c.dir/clean
 .PHONY : CMakeFiles/005constant.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/015conditionnal_macro.c.dir
+
+# All Build rule for target.
+CMakeFiles/015conditionnal_macro.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/015conditionnal_macro.c.dir/build.make CMakeFiles/015conditionnal_macro.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/015conditionnal_macro.c.dir/build.make CMakeFiles/015conditionnal_macro.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles --progress-num=43,44,45 "Built target 015conditionnal_macro.c"
+.PHONY : CMakeFiles/015conditionnal_macro.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/015conditionnal_macro.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/015conditionnal_macro.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/015conditionnal_macro.c.dir/rule
+
+# Convenience name for target.
+015conditionnal_macro.c: CMakeFiles/015conditionnal_macro.c.dir/rule
+.PHONY : 015conditionnal_macro.c
+
+# clean rule for target.
+CMakeFiles/015conditionnal_macro.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/015conditionnal_macro.c.dir/build.make CMakeFiles/015conditionnal_macro.c.dir/clean
+.PHONY : CMakeFiles/015conditionnal_macro.c.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/001int.c.dir
