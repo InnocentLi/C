@@ -63,6 +63,8 @@ CMAKE_BINARY_DIR = /Users/innocent/CLionProjects/C/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/018array_limit.c.dir/all
+all: CMakeFiles/017array_basic.c.dir/all
 all: CMakeFiles/016printInf.c.dir/all
 all: CMakeFiles/014macro_function.c.dir/all
 all: CMakeFiles/013fileInclude.c.dir/all
@@ -86,6 +88,8 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/018array_limit.c.dir/clean
+clean: CMakeFiles/017array_basic.c.dir/clean
 clean: CMakeFiles/016printInf.c.dir/clean
 clean: CMakeFiles/014macro_function.c.dir/clean
 clean: CMakeFiles/013fileInclude.c.dir/clean
@@ -103,6 +107,58 @@ clean: CMakeFiles/005constant.c.dir/clean
 clean: CMakeFiles/015conditionnal_macro.c.dir/clean
 clean: CMakeFiles/001int.c.dir/clean
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/018array_limit.c.dir
+
+# All Build rule for target.
+CMakeFiles/018array_limit.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/018array_limit.c.dir/build.make CMakeFiles/018array_limit.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/018array_limit.c.dir/build.make CMakeFiles/018array_limit.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles --progress-num=52,53,54 "Built target 018array_limit.c"
+.PHONY : CMakeFiles/018array_limit.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/018array_limit.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/018array_limit.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/018array_limit.c.dir/rule
+
+# Convenience name for target.
+018array_limit.c: CMakeFiles/018array_limit.c.dir/rule
+.PHONY : 018array_limit.c
+
+# clean rule for target.
+CMakeFiles/018array_limit.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/018array_limit.c.dir/build.make CMakeFiles/018array_limit.c.dir/clean
+.PHONY : CMakeFiles/018array_limit.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/017array_basic.c.dir
+
+# All Build rule for target.
+CMakeFiles/017array_basic.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/017array_basic.c.dir/build.make CMakeFiles/017array_basic.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/017array_basic.c.dir/build.make CMakeFiles/017array_basic.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles --progress-num=49,50,51 "Built target 017array_basic.c"
+.PHONY : CMakeFiles/017array_basic.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/017array_basic.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 3
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/017array_basic.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/017array_basic.c.dir/rule
+
+# Convenience name for target.
+017array_basic.c: CMakeFiles/017array_basic.c.dir/rule
+.PHONY : 017array_basic.c
+
+# clean rule for target.
+CMakeFiles/017array_basic.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/017array_basic.c.dir/build.make CMakeFiles/017array_basic.c.dir/clean
+.PHONY : CMakeFiles/017array_basic.c.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/016printInf.c.dir

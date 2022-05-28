@@ -1,4 +1,6 @@
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/018array_limit.c.dir
 /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/017array_basic.c.dir
 /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/016printInf.c.dir
 /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/014macro_function.c.dir
 /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles/edit_cache.dir
