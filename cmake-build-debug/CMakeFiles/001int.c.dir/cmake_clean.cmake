@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "001int.c"
   "001int.c.pdb"
   "CMakeFiles/001int.c.dir/001int.c.o"
-  "CMakeFiles/001int.c.dir/src/factorial.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

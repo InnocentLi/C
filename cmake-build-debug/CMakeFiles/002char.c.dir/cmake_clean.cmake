@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "002char.c"
   "002char.c.pdb"
   "CMakeFiles/002char.c.dir/002char.c.o"
-  "CMakeFiles/002char.c.dir/src/factorial.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "010varargs.c"
   "010varargs.c.pdb"
   "CMakeFiles/010varargs.c.dir/010varargs.c.o"
-  "CMakeFiles/010varargs.c.dir/src/factorial.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

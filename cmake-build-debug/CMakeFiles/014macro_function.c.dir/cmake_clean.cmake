@@ -2,7 +2,6 @@ file(REMOVE_RECURSE
   "014macro_function.c"
   "014macro_function.c.pdb"
   "CMakeFiles/014macro_function.c.dir/014macro_function.c.o"
-  "CMakeFiles/014macro_function.c.dir/src/factorial.c.o"
 )
 
 # Per-language clean rules from dependency scanning.
