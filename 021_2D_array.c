@@ -38,7 +38,7 @@ int main(){
             vehicle_limits[i][j] = i+j;
         }
     }
-    int result[5];
+    int result[5]={0};
     SumIntArray(5,4,scores,result);
     PRINT_INT_ARRAY(result,5);
 

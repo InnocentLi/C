@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/io_utils.h
+stdio.h
+-
+limits.h
+-
+
+/Users/innocent/CLionProjects/C/022shuffle_array.c
+stdio.h
+/Users/innocent/CLionProjects/C/stdio.h
+io_utils.h
+/Users/innocent/CLionProjects/C/io_utils.h
+stdlib.h
+/Users/innocent/CLionProjects/C/stdlib.h
+time.h
+/Users/innocent/CLionProjects/C/time.h
+

@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /Users/innocent/CLionProjects/C/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -84,6 +74,16 @@ edit_cache:
 # Special rule for the target edit_cache
 edit_cache/fast: edit_cache
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -117,56 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 020array_parameter.c
+# Target rules for targets named 008function_basics.c
 
 # Build rule for target.
-020array_parameter.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 020array_parameter.c
-.PHONY : 020array_parameter.c
+008function_basics.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 008function_basics.c
+.PHONY : 008function_basics.c
 
 # fast build rule for target.
-020array_parameter.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/020array_parameter.c.dir/build.make CMakeFiles/020array_parameter.c.dir/build
-.PHONY : 020array_parameter.c/fast
-
-#=============================================================================
-# Target rules for targets named 018array_limit.c
-
-# Build rule for target.
-018array_limit.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 018array_limit.c
-.PHONY : 018array_limit.c
-
-# fast build rule for target.
-018array_limit.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/018array_limit.c.dir/build.make CMakeFiles/018array_limit.c.dir/build
-.PHONY : 018array_limit.c/fast
-
-#=============================================================================
-# Target rules for targets named 017array_basic.c
-
-# Build rule for target.
-017array_basic.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 017array_basic.c
-.PHONY : 017array_basic.c
-
-# fast build rule for target.
-017array_basic.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/017array_basic.c.dir/build.make CMakeFiles/017array_basic.c.dir/build
-.PHONY : 017array_basic.c/fast
-
-#=============================================================================
-# Target rules for targets named 019string.c
-
-# Build rule for target.
-019string.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 019string.c
-.PHONY : 019string.c
-
-# fast build rule for target.
-019string.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/019string.c.dir/build.make CMakeFiles/019string.c.dir/build
-.PHONY : 019string.c/fast
+008function_basics.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/008function_basics.c.dir/build.make CMakeFiles/008function_basics.c.dir/build
+.PHONY : 008function_basics.c/fast
 
 #=============================================================================
 # Target rules for targets named 016printInf.c
@@ -182,17 +143,30 @@ depend:
 .PHONY : 016printInf.c/fast
 
 #=============================================================================
-# Target rules for targets named 014macro_function.c
+# Target rules for targets named 017array_basic.c
 
 # Build rule for target.
-014macro_function.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 014macro_function.c
-.PHONY : 014macro_function.c
+017array_basic.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 017array_basic.c
+.PHONY : 017array_basic.c
 
 # fast build rule for target.
-014macro_function.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/014macro_function.c.dir/build.make CMakeFiles/014macro_function.c.dir/build
-.PHONY : 014macro_function.c/fast
+017array_basic.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/017array_basic.c.dir/build.make CMakeFiles/017array_basic.c.dir/build
+.PHONY : 017array_basic.c/fast
+
+#=============================================================================
+# Target rules for targets named 020array_parameter.c
+
+# Build rule for target.
+020array_parameter.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 020array_parameter.c
+.PHONY : 020array_parameter.c
+
+# fast build rule for target.
+020array_parameter.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/020array_parameter.c.dir/build.make CMakeFiles/020array_parameter.c.dir/build
+.PHONY : 020array_parameter.c/fast
 
 #=============================================================================
 # Target rules for targets named 013fileInclude.c
@@ -206,6 +180,58 @@ depend:
 013fileInclude.c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/013fileInclude.c.dir/build.make CMakeFiles/013fileInclude.c.dir/build
 .PHONY : 013fileInclude.c/fast
+
+#=============================================================================
+# Target rules for targets named 018array_limit.c
+
+# Build rule for target.
+018array_limit.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 018array_limit.c
+.PHONY : 018array_limit.c
+
+# fast build rule for target.
+018array_limit.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/018array_limit.c.dir/build.make CMakeFiles/018array_limit.c.dir/build
+.PHONY : 018array_limit.c/fast
+
+#=============================================================================
+# Target rules for targets named 019string.c
+
+# Build rule for target.
+019string.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 019string.c
+.PHONY : 019string.c
+
+# fast build rule for target.
+019string.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/019string.c.dir/build.make CMakeFiles/019string.c.dir/build
+.PHONY : 019string.c/fast
+
+#=============================================================================
+# Target rules for targets named 014macro_function.c
+
+# Build rule for target.
+014macro_function.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 014macro_function.c
+.PHONY : 014macro_function.c
+
+# fast build rule for target.
+014macro_function.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/014macro_function.c.dir/build.make CMakeFiles/014macro_function.c.dir/build
+.PHONY : 014macro_function.c/fast
+
+#=============================================================================
+# Target rules for targets named 002char.c
+
+# Build rule for target.
+002char.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 002char.c
+.PHONY : 002char.c
+
+# fast build rule for target.
+002char.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/002char.c.dir/build.make CMakeFiles/002char.c.dir/build
+.PHONY : 002char.c/fast
 
 #=============================================================================
 # Target rules for targets named 012Han.c
@@ -273,32 +299,6 @@ depend:
 .PHONY : 010varargs.c/fast
 
 #=============================================================================
-# Target rules for targets named 008function_basics.c
-
-# Build rule for target.
-008function_basics.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 008function_basics.c
-.PHONY : 008function_basics.c
-
-# fast build rule for target.
-008function_basics.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/008function_basics.c.dir/build.make CMakeFiles/008function_basics.c.dir/build
-.PHONY : 008function_basics.c/fast
-
-#=============================================================================
-# Target rules for targets named 007conditions.c
-
-# Build rule for target.
-007conditions.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 007conditions.c
-.PHONY : 007conditions.c
-
-# fast build rule for target.
-007conditions.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/007conditions.c.dir/build.make CMakeFiles/007conditions.c.dir/build
-.PHONY : 007conditions.c/fast
-
-#=============================================================================
 # Target rules for targets named 003float.c
 
 # Build rule for target.
@@ -312,17 +312,30 @@ depend:
 .PHONY : 003float.c/fast
 
 #=============================================================================
-# Target rules for targets named 002char.c
+# Target rules for targets named 022shuffle_array.c
 
 # Build rule for target.
-002char.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 002char.c
-.PHONY : 002char.c
+022shuffle_array.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 022shuffle_array.c
+.PHONY : 022shuffle_array.c
 
 # fast build rule for target.
-002char.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/002char.c.dir/build.make CMakeFiles/002char.c.dir/build
-.PHONY : 002char.c/fast
+022shuffle_array.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/022shuffle_array.c.dir/build.make CMakeFiles/022shuffle_array.c.dir/build
+.PHONY : 022shuffle_array.c/fast
+
+#=============================================================================
+# Target rules for targets named 007conditions.c
+
+# Build rule for target.
+007conditions.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 007conditions.c
+.PHONY : 007conditions.c
+
+# fast build rule for target.
+007conditions.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/007conditions.c.dir/build.make CMakeFiles/007conditions.c.dir/build
+.PHONY : 007conditions.c/fast
 
 #=============================================================================
 # Target rules for targets named 011Recursion.c
@@ -893,6 +906,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/021_2D_array.c.dir/build.make CMakeFiles/021_2D_array.c.dir/021_2D_array.c.s
 .PHONY : 021_2D_array.c.s
 
+022shuffle_array.o: 022shuffle_array.c.o
+.PHONY : 022shuffle_array.o
+
+# target to build an object file
+022shuffle_array.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/022shuffle_array.c.dir/build.make CMakeFiles/022shuffle_array.c.dir/022shuffle_array.c.o
+.PHONY : 022shuffle_array.c.o
+
+022shuffle_array.i: 022shuffle_array.c.i
+.PHONY : 022shuffle_array.i
+
+# target to preprocess a source file
+022shuffle_array.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/022shuffle_array.c.dir/build.make CMakeFiles/022shuffle_array.c.dir/022shuffle_array.c.i
+.PHONY : 022shuffle_array.c.i
+
+022shuffle_array.s: 022shuffle_array.c.s
+.PHONY : 022shuffle_array.s
+
+# target to generate assembly for a file
+022shuffle_array.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/022shuffle_array.c.dir/build.make CMakeFiles/022shuffle_array.c.dir/022shuffle_array.c.s
+.PHONY : 022shuffle_array.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -922,6 +959,7 @@ help:
 	@echo "... 019string.c"
 	@echo "... 020array_parameter.c"
 	@echo "... 021_2D_array.c"
+	@echo "... 022shuffle_array.c"
 	@echo "... 001int.o"
 	@echo "... 001int.i"
 	@echo "... 001int.s"
@@ -985,6 +1023,9 @@ help:
 	@echo "... 021_2D_array.o"
 	@echo "... 021_2D_array.i"
 	@echo "... 021_2D_array.s"
+	@echo "... 022shuffle_array.o"
+	@echo "... 022shuffle_array.i"
+	@echo "... 022shuffle_array.s"
 .PHONY : help
 
 
