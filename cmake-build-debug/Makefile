@@ -221,19 +221,6 @@ depend:
 .PHONY : 014macro_function.c/fast
 
 #=============================================================================
-# Target rules for targets named 002char.c
-
-# Build rule for target.
-002char.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 002char.c
-.PHONY : 002char.c
-
-# fast build rule for target.
-002char.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/002char.c.dir/build.make CMakeFiles/002char.c.dir/build
-.PHONY : 002char.c/fast
-
-#=============================================================================
 # Target rules for targets named 012Han.c
 
 # Build rule for target.
@@ -286,19 +273,6 @@ depend:
 .PHONY : 009variable_type_and_scope.c/fast
 
 #=============================================================================
-# Target rules for targets named 010varargs.c
-
-# Build rule for target.
-010varargs.c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 010varargs.c
-.PHONY : 010varargs.c
-
-# fast build rule for target.
-010varargs.c/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/010varargs.c.dir/build.make CMakeFiles/010varargs.c.dir/build
-.PHONY : 010varargs.c/fast
-
-#=============================================================================
 # Target rules for targets named 003float.c
 
 # Build rule for target.
@@ -325,6 +299,32 @@ depend:
 .PHONY : 022shuffle_array.c/fast
 
 #=============================================================================
+# Target rules for targets named 023array_lomuto.c
+
+# Build rule for target.
+023array_lomuto.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 023array_lomuto.c
+.PHONY : 023array_lomuto.c
+
+# fast build rule for target.
+023array_lomuto.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/023array_lomuto.c.dir/build.make CMakeFiles/023array_lomuto.c.dir/build
+.PHONY : 023array_lomuto.c/fast
+
+#=============================================================================
+# Target rules for targets named 010varargs.c
+
+# Build rule for target.
+010varargs.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 010varargs.c
+.PHONY : 010varargs.c
+
+# fast build rule for target.
+010varargs.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/010varargs.c.dir/build.make CMakeFiles/010varargs.c.dir/build
+.PHONY : 010varargs.c/fast
+
+#=============================================================================
 # Target rules for targets named 007conditions.c
 
 # Build rule for target.
@@ -336,6 +336,19 @@ depend:
 007conditions.c/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/007conditions.c.dir/build.make CMakeFiles/007conditions.c.dir/build
 .PHONY : 007conditions.c/fast
+
+#=============================================================================
+# Target rules for targets named 002char.c
+
+# Build rule for target.
+002char.c: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 002char.c
+.PHONY : 002char.c
+
+# fast build rule for target.
+002char.c/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/002char.c.dir/build.make CMakeFiles/002char.c.dir/build
+.PHONY : 002char.c/fast
 
 #=============================================================================
 # Target rules for targets named 011Recursion.c
@@ -930,6 +943,30 @@ depend:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/022shuffle_array.c.dir/build.make CMakeFiles/022shuffle_array.c.dir/022shuffle_array.c.s
 .PHONY : 022shuffle_array.c.s
 
+023array_lomuto.o: 023array_lomuto.c.o
+.PHONY : 023array_lomuto.o
+
+# target to build an object file
+023array_lomuto.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/023array_lomuto.c.dir/build.make CMakeFiles/023array_lomuto.c.dir/023array_lomuto.c.o
+.PHONY : 023array_lomuto.c.o
+
+023array_lomuto.i: 023array_lomuto.c.i
+.PHONY : 023array_lomuto.i
+
+# target to preprocess a source file
+023array_lomuto.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/023array_lomuto.c.dir/build.make CMakeFiles/023array_lomuto.c.dir/023array_lomuto.c.i
+.PHONY : 023array_lomuto.c.i
+
+023array_lomuto.s: 023array_lomuto.c.s
+.PHONY : 023array_lomuto.s
+
+# target to generate assembly for a file
+023array_lomuto.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/023array_lomuto.c.dir/build.make CMakeFiles/023array_lomuto.c.dir/023array_lomuto.c.s
+.PHONY : 023array_lomuto.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -960,6 +997,7 @@ help:
 	@echo "... 020array_parameter.c"
 	@echo "... 021_2D_array.c"
 	@echo "... 022shuffle_array.c"
+	@echo "... 023array_lomuto.c"
 	@echo "... 001int.o"
 	@echo "... 001int.i"
 	@echo "... 001int.s"
@@ -1026,6 +1064,9 @@ help:
 	@echo "... 022shuffle_array.o"
 	@echo "... 022shuffle_array.i"
 	@echo "... 022shuffle_array.s"
+	@echo "... 023array_lomuto.o"
+	@echo "... 023array_lomuto.i"
+	@echo "... 023array_lomuto.s"
 .PHONY : help
 
 

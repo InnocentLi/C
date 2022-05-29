@@ -71,15 +71,16 @@ all: CMakeFiles/013fileInclude.c.dir/all
 all: CMakeFiles/018array_limit.c.dir/all
 all: CMakeFiles/019string.c.dir/all
 all: CMakeFiles/014macro_function.c.dir/all
-all: CMakeFiles/002char.c.dir/all
 all: CMakeFiles/012Han.c.dir/all
 all: CMakeFiles/004variable.c.dir/all
 all: CMakeFiles/006operators.c.dir/all
 all: CMakeFiles/009variable_type_and_scope.c.dir/all
-all: CMakeFiles/010varargs.c.dir/all
 all: CMakeFiles/003float.c.dir/all
 all: CMakeFiles/022shuffle_array.c.dir/all
+all: CMakeFiles/023array_lomuto.c.dir/all
+all: CMakeFiles/010varargs.c.dir/all
 all: CMakeFiles/007conditions.c.dir/all
+all: CMakeFiles/002char.c.dir/all
 all: CMakeFiles/011Recursion.c.dir/all
 all: CMakeFiles/005constant.c.dir/all
 all: CMakeFiles/021_2D_array.c.dir/all
@@ -100,15 +101,16 @@ clean: CMakeFiles/013fileInclude.c.dir/clean
 clean: CMakeFiles/018array_limit.c.dir/clean
 clean: CMakeFiles/019string.c.dir/clean
 clean: CMakeFiles/014macro_function.c.dir/clean
-clean: CMakeFiles/002char.c.dir/clean
 clean: CMakeFiles/012Han.c.dir/clean
 clean: CMakeFiles/004variable.c.dir/clean
 clean: CMakeFiles/006operators.c.dir/clean
 clean: CMakeFiles/009variable_type_and_scope.c.dir/clean
-clean: CMakeFiles/010varargs.c.dir/clean
 clean: CMakeFiles/003float.c.dir/clean
 clean: CMakeFiles/022shuffle_array.c.dir/clean
+clean: CMakeFiles/023array_lomuto.c.dir/clean
+clean: CMakeFiles/010varargs.c.dir/clean
 clean: CMakeFiles/007conditions.c.dir/clean
+clean: CMakeFiles/002char.c.dir/clean
 clean: CMakeFiles/011Recursion.c.dir/clean
 clean: CMakeFiles/005constant.c.dir/clean
 clean: CMakeFiles/021_2D_array.c.dir/clean
@@ -325,32 +327,6 @@ CMakeFiles/014macro_function.c.dir/clean:
 .PHONY : CMakeFiles/014macro_function.c.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/002char.c.dir
-
-# All Build rule for target.
-CMakeFiles/002char.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/002char.c.dir/build.make CMakeFiles/002char.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/002char.c.dir/build.make CMakeFiles/002char.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 002char.c"
-.PHONY : CMakeFiles/002char.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/002char.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/002char.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/002char.c.dir/rule
-
-# Convenience name for target.
-002char.c: CMakeFiles/002char.c.dir/rule
-.PHONY : 002char.c
-
-# clean rule for target.
-CMakeFiles/002char.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/002char.c.dir/build.make CMakeFiles/002char.c.dir/clean
-.PHONY : CMakeFiles/002char.c.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/012Han.c.dir
 
 # All Build rule for target.
@@ -455,32 +431,6 @@ CMakeFiles/009variable_type_and_scope.c.dir/clean:
 .PHONY : CMakeFiles/009variable_type_and_scope.c.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/010varargs.c.dir
-
-# All Build rule for target.
-CMakeFiles/010varargs.c.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/010varargs.c.dir/build.make CMakeFiles/010varargs.c.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/010varargs.c.dir/build.make CMakeFiles/010varargs.c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target 010varargs.c"
-.PHONY : CMakeFiles/010varargs.c.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/010varargs.c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/010varargs.c.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/010varargs.c.dir/rule
-
-# Convenience name for target.
-010varargs.c: CMakeFiles/010varargs.c.dir/rule
-.PHONY : 010varargs.c
-
-# clean rule for target.
-CMakeFiles/010varargs.c.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/010varargs.c.dir/build.make CMakeFiles/010varargs.c.dir/clean
-.PHONY : CMakeFiles/010varargs.c.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/003float.c.dir
 
 # All Build rule for target.
@@ -533,6 +483,58 @@ CMakeFiles/022shuffle_array.c.dir/clean:
 .PHONY : CMakeFiles/022shuffle_array.c.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/023array_lomuto.c.dir
+
+# All Build rule for target.
+CMakeFiles/023array_lomuto.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/023array_lomuto.c.dir/build.make CMakeFiles/023array_lomuto.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/023array_lomuto.c.dir/build.make CMakeFiles/023array_lomuto.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles --progress-num=45,46 "Built target 023array_lomuto.c"
+.PHONY : CMakeFiles/023array_lomuto.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/023array_lomuto.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/023array_lomuto.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/023array_lomuto.c.dir/rule
+
+# Convenience name for target.
+023array_lomuto.c: CMakeFiles/023array_lomuto.c.dir/rule
+.PHONY : 023array_lomuto.c
+
+# clean rule for target.
+CMakeFiles/023array_lomuto.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/023array_lomuto.c.dir/build.make CMakeFiles/023array_lomuto.c.dir/clean
+.PHONY : CMakeFiles/023array_lomuto.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/010varargs.c.dir
+
+# All Build rule for target.
+CMakeFiles/010varargs.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/010varargs.c.dir/build.make CMakeFiles/010varargs.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/010varargs.c.dir/build.make CMakeFiles/010varargs.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target 010varargs.c"
+.PHONY : CMakeFiles/010varargs.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/010varargs.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/010varargs.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/010varargs.c.dir/rule
+
+# Convenience name for target.
+010varargs.c: CMakeFiles/010varargs.c.dir/rule
+.PHONY : 010varargs.c
+
+# clean rule for target.
+CMakeFiles/010varargs.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/010varargs.c.dir/build.make CMakeFiles/010varargs.c.dir/clean
+.PHONY : CMakeFiles/010varargs.c.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/007conditions.c.dir
 
 # All Build rule for target.
@@ -557,6 +559,32 @@ CMakeFiles/007conditions.c.dir/rule: cmake_check_build_system
 CMakeFiles/007conditions.c.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/007conditions.c.dir/build.make CMakeFiles/007conditions.c.dir/clean
 .PHONY : CMakeFiles/007conditions.c.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/002char.c.dir
+
+# All Build rule for target.
+CMakeFiles/002char.c.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/002char.c.dir/build.make CMakeFiles/002char.c.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/002char.c.dir/build.make CMakeFiles/002char.c.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 002char.c"
+.PHONY : CMakeFiles/002char.c.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/002char.c.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/002char.c.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/innocent/CLionProjects/C/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/002char.c.dir/rule
+
+# Convenience name for target.
+002char.c: CMakeFiles/002char.c.dir/rule
+.PHONY : 002char.c
+
+# clean rule for target.
+CMakeFiles/002char.c.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/002char.c.dir/build.make CMakeFiles/002char.c.dir/clean
+.PHONY : CMakeFiles/002char.c.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/011Recursion.c.dir

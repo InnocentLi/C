@@ -369,60 +369,6 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="002char.c">
-				<Option output="/Users/innocent/CLionProjects/C/cmake-build-debug/002char.c" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/innocent/CLionProjects/C/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 002char.c"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="002char.c/fast">
-				<Option output="/Users/innocent/CLionProjects/C/cmake-build-debug/002char.c" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/innocent/CLionProjects/C/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 002char.c/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="012Han.c">
 				<Option output="/Users/innocent/CLionProjects/C/cmake-build-debug/012Han.c" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
@@ -599,50 +545,6 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="010varargs.c">
-				<Option output="/Users/innocent/CLionProjects/C/cmake-build-debug/010varargs.c" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/innocent/CLionProjects/C/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 010varargs.c"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="010varargs.c/fast">
-				<Option output="/Users/innocent/CLionProjects/C/cmake-build-debug/010varargs.c" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/innocent/CLionProjects/C/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 010varargs.c/fast"/>
-					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="003float.c">
 				<Option output="/Users/innocent/CLionProjects/C/cmake-build-debug/003float.c" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
@@ -731,6 +633,94 @@
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="023array_lomuto.c">
+				<Option output="/Users/innocent/CLionProjects/C/cmake-build-debug/023array_lomuto.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/innocent/CLionProjects/C/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 023array_lomuto.c"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="023array_lomuto.c/fast">
+				<Option output="/Users/innocent/CLionProjects/C/cmake-build-debug/023array_lomuto.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/innocent/CLionProjects/C/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 023array_lomuto.c/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="010varargs.c">
+				<Option output="/Users/innocent/CLionProjects/C/cmake-build-debug/010varargs.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/innocent/CLionProjects/C/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 010varargs.c"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="010varargs.c/fast">
+				<Option output="/Users/innocent/CLionProjects/C/cmake-build-debug/010varargs.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/innocent/CLionProjects/C/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 010varargs.c/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="007conditions.c">
 				<Option output="/Users/innocent/CLionProjects/C/cmake-build-debug/007conditions.c" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
@@ -770,6 +760,60 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 007conditions.c/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="002char.c">
+				<Option output="/Users/innocent/CLionProjects/C/cmake-build-debug/002char.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/innocent/CLionProjects/C/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 002char.c"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="002char.c/fast">
+				<Option output="/Users/innocent/CLionProjects/C/cmake-build-debug/002char.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/innocent/CLionProjects/C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/innocent/CLionProjects/C/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.1.6/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 002char.c/fast"/>
 					<CompileFile command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j12 -f &quot;/Users/innocent/CLionProjects/C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -1071,6 +1115,9 @@
 		</Unit>
 		<Unit filename="/Users/innocent/CLionProjects/C/022shuffle_array.c">
 			<Option target="022shuffle_array.c"/>
+		</Unit>
+		<Unit filename="/Users/innocent/CLionProjects/C/023array_lomuto.c">
+			<Option target="023array_lomuto.c"/>
 		</Unit>
 		<Unit filename="/Users/innocent/CLionProjects/C/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
