@@ -20,9 +20,12 @@ int main(){
     *pa = 2;
     *(pa+1) = 3;
     *(pa+2) = 4;
+    *(pa+3) = 5;
     PRINT_INT_ARRAY(array,4);
-
+    //int array2[4] = {0}
     // left:storage
     // right:value
+    // 修改数组0元素的位置/
+
     return 0;
 }
