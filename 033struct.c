@@ -40,17 +40,8 @@ int main(){
          id:"21897899"
      };
     //PRINT_INT(person.age);
-    printf("算命大师2.0版本\n");
-    printf("崔岩是否东大计算中。。。。\n");
-    int a;
-    srand((unsigned)time(NULL));
-    a = rand()% 10;
-    if(a<2){
-        printf("东大合格\n", a);
-    }
-    else{
-        printf("东大不合格\n", a);
-    }
+
+
     //printf("%d\n", a);
     return 0;
 
