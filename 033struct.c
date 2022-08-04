@@ -43,7 +43,9 @@ int main(){
 
 
     //printf("%d\n", a);
-    return 0;
+    typedef struct Person  Person;
+
+    Person person2;
 
     return 0;
 }
